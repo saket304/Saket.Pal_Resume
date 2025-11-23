@@ -3272,6 +3272,50 @@ img.u-pull-left {
     fill : var(--color-1);
 }
 
+    /* ------------------------------------------------------------------- 
+ * Progress Bar start:
+ * ------------------------------------------------------------------- */
+    .progress-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.progress-list li {
+    margin: 15px 0;
+}
+
+.progress-list li span {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.progress-bar {
+    background: #ffffff1a;
+    height: 8px;
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 5px;
+    border: 1px solid #eabe7b;
+}
+
+.progress {
+    height: 100%;
+    background: hsla(36, 72%, 70%, 1);
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+.intro-social i{
+    line-height: 3!important;
+}
+
+
+
+
+    
 /* ------------------------------------------------------------------- 
  * responsive:
  * intro
